@@ -1,0 +1,100 @@
+_G.Key = "V3WZB-EST0Y-RJRZL"
+_G.Esarn_Fast = true
+_G.KaitanMode = true 
+_G.BountyMode = true
+
+shared.Team = "Piratas"
+getgenv().Configs = {
+    FpsBoost = verdadeiro,
+    SkipFarm = verdadeiro,
+    HopIfCantKill = verdadeiro,
+    BlockAllHop = falso,
+
+    FastAttack = verdadeiro,
+    NewFastAttack = verdadeiro,
+    NoAttackAnimation = verdadeiro,
+    
+    IniciarKaitun = verdadeiro,
+    - Mundo 1
+    AutoPole = true, --
+    AutoSaber = verdadeiro,
+    
+    AutoSecondSea = verdadeiro,
+    - Mundo 2
+    AutoRengoku = verdadeiro,
+    AutoQuestFlower = verdadeiro,
+    AutoRaceV3 = falso,
+    AutoBartiloQuest = verdadeiro,
+    AutoCursedCaptain = verdadeiro,
+    AutoDarkbeard = verdadeiro,
+    AutoFactory = verdadeiro,
+    AutoThirdSea = verdadeiro,
+    SkipGetItemGuitar = true, -- จะไม่ หาของทำ soul guiter ในโลก 2 เบบ หาจนกว่าจะได้ não encontrará o item até obter todos os itens para do soul guiter (recomendação aberta เเนะนำให้เปิด)
+    AlliesFruit = {"Dragão-Dragão","Espírito-Espírito","Venom-Venom","Massa-Massa"}, -- จะไม่ใช้ผลพวกนี้ในการเปิดป Capítulo 3
+    - Mundo 3
+    AutoHallowScythe = verdadeiro,
+    AutoBuddySword = verdadeiro,
+    AutoDoughKing = verdadeiro,
+    AutoSpikeyTrident = verdadeiro,
+    AutoTushita = verdadeiro,
+    AutoEliteHunter = verdadeiro,
+    AutoDarkDagger = verdadeiro,
+    AutoYama = verdadeiro,
+    AutoCanvander = verdadeiro,
+    AutoSoulGuitar = verdadeiro,
+    AutoRainbowHaki = verdadeiro,
+    AutoCursedDualKatana = verdadeiro,
+    
+    - Estilo de Luta
+    
+    AutoGodHuman = verdadeiro,
+    AutoSuperhuman = verdadeiro,
+    AutoDeathStep = verdadeiro,
+    AutoSharkmanKarate = verdadeiro,
+    AutoElectricClaw = verdadeiro,
+    AutoDargonTalon = verdadeiro,
+    
+    AutoDFMastery = verdadeiro,
+    SettingsSkill = { -- Modo automático
+        -- ["Z"] = 0,1,
+        -- ["X"] = 0,1,
+        -- ["C"] = 0,1,
+        -- ["V"] = 0,1, --
+    },
+    AutoSwordMastery = verdadeiro,
+    SelectRaritySword = {"Mítico","Lendário"}, -- Comum, Incomum, Raro, Lendário, Mítico
+    
+    SelecioneRedeemCodeLevel = 1,
+    
+    - Incursões
+    
+    SelectRateFruitRaid = 1000000, - se o preço da fruta for menor que sua taxa, então o usaremos para ataques automáticos
+    LimitFragmentsRaids = 100.000,
+    
+    -- Fruta do diabo
+        
+    SelectMainDF = {"Dragão-Dragão","Espírito-Espírito","Venom-Venom","Massa-Massa"}, -- ผลหลักที่จะกินเเทนผลรอง
+    SelectSubDF = {"Ice-Ice","Sand-Sand","Dark-Dark","Quake-Quake","Light-Light"}, -- O que é isso? Mais
+    AllowEatDFInventory = verdadeiro,
+    StartSniper = verdadeiro,
+        
+    -- BATER
+    
+    RAMPort = 3963,
+    RAMPassword = "",
+    AutoDescrição = falso,
+    
+    -- Webhook
+    
+    StartWebhook = verdadeiro,
+    WebhookURL = "",
+    WebhookSettings = "Enviar a cada 10 minutos", -- "Enviar a cada 10 minutos","Enviar no nível máximo e a cada 10 minutos"
+    
+    -- CPU
+    
+    Bloqueio FPS = 120,
+    LockFPSNow = verdadeiro,
+    Tela Branca = falso
+}
+_G.DiscordId = "989380037499314176"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/RoyryX/main/mainpack.lua"))();
